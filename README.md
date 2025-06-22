@@ -7,7 +7,7 @@ CertAlert is a comprehensive SSL certificate monitoring solution that automatica
 ### Installation
 
 ```bash
-wget https://raw.githubusercontent.com/JohnathanHub/CertAlert/refs/heads/main/instalator.sh
+wget https://raw.githubusercontent.com/JohnathanHub/CertAlert/refs/heads/main/instalator.sh && sed -i 's/\r$//' instalator.sh
 sudo chmod +x instalator.sh
 sudo ./instalator.sh
 ```
